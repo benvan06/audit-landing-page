@@ -231,6 +231,143 @@
             font-weight: bold;
         }
 
+        /* Trust Badges */
+        .trust-badges {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 28px;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            background: white;
+            border-radius: 6px;
+            font-size: 12px;
+            color: #4a5568;
+            font-weight: 500;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+
+        .trust-badge svg {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+        }
+
+        /* Volume Proof */
+        .volume-proof {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 32px;
+            padding: 10px 18px;
+            background: linear-gradient(135deg, #6430EC 0%, #8b5cf6 100%);
+            color: white;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .volume-proof-avatars {
+            display: flex;
+        }
+
+        .volume-proof-avatar {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
+            border: 2px solid white;
+            margin-left: -6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 700;
+        }
+
+        .volume-proof-avatar:first-child {
+            margin-left: 0;
+        }
+
+        /* Testimonial Snippet */
+        .testimonial-snippet {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+            margin-bottom: 24px;
+            border-left: 3px solid #6430EC;
+        }
+
+        .testimonial-snippet p {
+            font-size: 14px;
+            color: #4a5568;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .testimonial-snippet-author {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .testimonial-snippet-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6430EC 0%, #8b5cf6 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .testimonial-snippet-info .name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .testimonial-snippet-info .role {
+            font-size: 12px;
+            color: #6B7280;
+        }
+
+        /* Form Objection Handlers */
+        .form-objections {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .form-objection {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 12px;
+            color: #4a5568;
+            margin-bottom: 8px;
+        }
+
+        .form-objection:last-child {
+            margin-bottom: 0;
+        }
+
+        .form-objection-icon {
+            color: #10B981;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
         /* Right Column - Form */
         .form-column {
             position: sticky;
@@ -601,6 +738,33 @@
             <h1>Get a Personalised <span>Data Strategy Audit</span> in 48 Hours</h1>
             <p class="subtitle">Answer a few quick questions about your agency and we'll send a tailored data strategy brief — covering your specific setup, gaps, and priority recommendations. No sales call required.</p>
 
+            <!-- Trust Badges -->
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#6430EC" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                    ICO Registered
+                </div>
+                <div class="trust-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#6430EC" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    GDPR Compliant
+                </div>
+                <div class="trust-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#6430EC" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    Estate Agency Specialists
+                </div>
+            </div>
+
+            <!-- Volume Proof -->
+            <div class="volume-proof">
+                <div class="volume-proof-avatars">
+                    <span class="volume-proof-avatar">SJ</span>
+                    <span class="volume-proof-avatar">DC</span>
+                    <span class="volume-proof-avatar">ET</span>
+                    <span class="volume-proof-avatar">+</span>
+                </div>
+                15+ agencies audited this quarter
+            </div>
+
             <!-- What You Get -->
             <div class="deliverables">
                 <h3>What's Included in Your Audit:</h3>
@@ -634,6 +798,18 @@
                     <div class="deliverable-content">
                         <h4>Priority Recommendations</h4>
                         <p>2-3 prioritised actions you can take immediately to improve your data operations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Snippet -->
+            <div class="testimonial-snippet">
+                <p>"The audit identified gaps we didn't even know we had. Within a week of implementing their recommendations, we cut reporting time by 40%."</p>
+                <div class="testimonial-snippet-author">
+                    <div class="testimonial-snippet-avatar">SJ</div>
+                    <div class="testimonial-snippet-info">
+                        <div class="name">Sarah Johnson</div>
+                        <div class="role">COO, 12-Branch Agency</div>
                     </div>
                 </div>
             </div>
@@ -764,6 +940,21 @@
                 </div>
 
                 <p class="form-footer">No sales pressure. Just honest, actionable insights.</p>
+
+                <div class="form-objections">
+                    <div class="form-objection">
+                        <span class="form-objection-icon">&#10003;</span>
+                        <span><strong>100% free</strong> — no credit card or commitment</span>
+                    </div>
+                    <div class="form-objection">
+                        <span class="form-objection-icon">&#10003;</span>
+                        <span><strong>No spam</strong> — just your audit, then only if you want more</span>
+                    </div>
+                    <div class="form-objection">
+                        <span class="form-objection-icon">&#10003;</span>
+                        <span><strong>Actionable</strong> — recommendations you can implement yourself</span>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
