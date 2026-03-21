@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How AI-Ready Is Your Agency? Free 48-Hour Audit | AGI Automations</title>
+    <meta name="description" content="Most agencies think their problem is data. It's not — it's how the agency is organised around data. Free AI-readiness audit in 48 hours for multi-branch estate agencies.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://audit.agi-automations.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="How AI-Ready Is Your Agency? Free Audit | AGI Automations">
+    <meta property="og:description" content="Most agencies think their problem is data. It's how the agency is organised. Free AI-readiness audit in 48 hours for multi-branch estate agencies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://audit.agi-automations.com/">
+    <meta property="og:image" content="https://www.agi-automations.com/og-image.png">
+    <meta property="og:site_name" content="AGI Automations">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How AI-Ready Is Your Agency? Free Audit | AGI Automations">
+    <meta name="twitter:description" content="Free AI-readiness audit for multi-branch estate agencies. Delivered in 48 hours. No sales call required.">
+    <meta name="twitter:image" content="https://www.agi-automations.com/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://www.agi-automations.com/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.agi-automations.com/apple-touch-icon.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Free AI-Readiness Audit",
+        "provider": {
+            "@type": "Organization",
+            "name": "AGI Automations",
+            "url": "https://www.agi-automations.com"
+        },
+        "description": "Free AI-readiness audit for multi-branch estate agencies. Assesses your operating model and identifies the 3 organisational changes that would make the biggest difference. Delivered in 48 hours.",
+        "areaServed": "GB",
+        "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "Multi-branch estate agencies"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "GBP"
+        }
+    }
+    </script>
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-18364E2NK1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-18364E2NK1');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a202c;
+            background: #f7fafc;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            padding: 16px 24px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-img {
+            height: 40px;
+            width: auto;
+        }
+
+        .header-cta {
+            color: #6430EC;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .header-cta:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Layout */
+        .main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+            display: grid;
+            grid-template-columns: 1fr 420px;
+            gap: 60px;
+            align-items: start;
+        }
+
+        /* Left Column - Value Prop */
+        .value-column {
+            padding-top: 20px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: #D1FAE5;
+            color: #059669;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .value-column h1 {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.15;
+            color: #1a202c;
+            margin-bottom: 20px;
+        }
+
+        .value-column h1 span {
+            color: #6430EC;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #4a5568;
+            line-height: 1.7;
+            margin-bottom: 32px;
+        }
+
+        /* What You Get */
+        .deliverables {
+            background: white;
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+            margin-bottom: 32px;
+        }
+
+        .deliverables h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 20px;
+        }
+
+        .deliverable-item {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+
+        .deliverable-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .deliverable-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #6430EC 0%, #8b5cf6 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .deliverable-content h4 {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 4px;
+        }
+
+        .deliverable-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.5;
+        }
+
+        /* Trust Points */
+        .trust-points {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+
+        .trust-point {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #4a5568;
+        }
+
+        .trust-point .icon {
+            color: #10B981;
+            font-weight: bold;
+        }
+
+        /* Trust Badges */
+        .trust-badges {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 28px;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            background: white;
+            border-radius: 6px;
+            font-size: 12px;
+            color: #4a5568;
+            font-weight: 500;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+
+        .trust-badge svg {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+        }
+
+        /* Volume Proof */
+        .volume-proof {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 32px;
+            padding: 10px 18px;
+            background: linear-gradient(135deg, #6430EC 0%, #8b5cf6 100%);
+            color: white;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .volume-proof-avatars {
+            display: flex;
+        }
+
+        .volume-proof-avatar {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
+            border: 2px solid white;
+            margin-left: -6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 700;
+        }
+
+        .volume-proof-avatar:first-child {
+            margin-left: 0;
+        }
+
+        /* Testimonial Snippet */
+        .testimonial-snippet {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+            margin-bottom: 24px;
+            border-left: 3px solid #6430EC;
+        }
+
+        .testimonial-snippet p {
+            font-size: 14px;
+            color: #4a5568;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .testimonial-snippet-author {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .testimonial-snippet-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6430EC 0%, #8b5cf6 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .testimonial-snippet-info .name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .testimonial-snippet-info .role {
+            font-size: 12px;
+            color: #6B7280;
+        }
+
+        /* Form Objection Handlers */
+        .form-objections {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .form-objection {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 12px;
+            color: #4a5568;
+            margin-bottom: 8px;
+        }
+
+        .form-objection:last-child {
+            margin-bottom: 0;
+        }
+
+        .form-objection-icon {
+            color: #10B981;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        /* Right Column - Form */
+        .form-column {
+            position: sticky;
+            top: 24px;
+        }
+
+        .form-card {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .form-header h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .form-header p {
+            font-size: 14px;
+            color: #4a5568;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            margin-bottom: 24px;
+        }
+
+        .progress-labels {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .progress-labels span {
+            font-size: 13px;
+            font-weight: 600;
+            color: #6430EC;
+        }
+
+        .progress-labels span:last-child {
+            color: #718096;
+        }
+
+        .progress-bar {
+            background: #e2e8f0;
+            border-radius: 4px;
+            height: 6px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: #6430EC;
+            height: 100%;
+            width: 33%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        /* Form Steps */
+        .form-step {
+            display: none;
+        }
+
+        .form-step.active {
+            display: block;
+        }
+
+        .form-step h3 {
+            font-size: 17px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 16px;
+        }
+
+        /* Option Buttons */
+        .option-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .option-grid.single {
+            grid-template-columns: 1fr;
+        }
+
+        .option-btn {
+            padding: 14px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            background: white;
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a202c;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: center;
+        }
+
+        .option-btn:hover {
+            border-color: #6430EC;
+            background: #f7f5ff;
+        }
+
+        .option-btn.selected {
+            border-color: #6430EC;
+            background: #6430EC;
+            color: white;
+        }
+
+        /* CRM Grid */
+        .crm-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        /* Checkbox Options */
+        .checkbox-option {
+            display: flex;
+            align-items: center;
+            padding: 12px 14px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 10px;
+        }
+
+        .checkbox-option:hover {
+            border-color: #6430EC;
+        }
+
+        .checkbox-option.selected {
+            border-color: #6430EC;
+            background: #f7f5ff;
+        }
+
+        .checkbox-option input {
+            margin-right: 12px;
+            width: 18px;
+            height: 18px;
+            accent-color: #6430EC;
+        }
+
+        .checkbox-option span {
+            font-size: 14px;
+            color: #1a202c;
+        }
+
+        /* Form Inputs */
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 6px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 14px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #6430EC;
+        }
+
+        /* Buttons */
+        .btn-continue {
+            width: 100%;
+            padding: 14px;
+            background: #6430EC;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 20px;
+        }
+
+        .btn-continue:hover {
+            background: #5528CC;
+        }
+
+        .btn-continue:disabled {
+            background: #a0aec0;
+            cursor: not-allowed;
+        }
+
+        /* Confirmation */
+        .confirmation {
+            text-align: center;
+        }
+
+        .confirmation .check-icon {
+            width: 64px;
+            height: 64px;
+            background: #D1FAE5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 28px;
+            color: #10B981;
+        }
+
+        .confirmation h3 {
+            font-size: 22px;
+            color: #1a202c;
+            margin-bottom: 12px;
+        }
+
+        .confirmation > p {
+            color: #4a5568;
+            font-size: 15px;
+            margin-bottom: 24px;
+        }
+
+        .next-steps {
+            background: #f7f5ff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .next-steps h4 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 12px;
+        }
+
+        .next-steps p {
+            font-size: 14px;
+            color: #4a5568;
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .next-steps p::before {
+            content: attr(data-step);
+            position: absolute;
+            left: 0;
+            color: #6430EC;
+            font-weight: 600;
+        }
+
+        .next-steps p:last-child {
+            margin-bottom: 0;
+        }
+
+        .book-link {
+            color: #6430EC;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .book-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Form Footer */
+        .form-footer {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 13px;
+            color: #718096;
+        }
+
+        /* Footer */
+        .footer {
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 13px;
+            color: #718096;
+        }
+
+        .footer a {
+            color: #6430EC;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .main {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .value-column {
+                padding-top: 0;
+            }
+
+            .value-column h1 {
+                font-size: 32px;
+            }
+
+            .form-column {
+                position: static;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .option-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .crm-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .trust-points {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="https://www.agi-automations.com">
+                <img src="logo.png" alt="AGI Automations" class="logo-img">
+            </a>
+            <a href="https://www.agi-automations.com" class="header-cta">Back to main site</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Left Column - Value Proposition -->
+        <div class="value-column">
+            <div class="badge">Free AI-Readiness Audit | Multi-Branch Agencies</div>
+            <h1>How AI-Ready Is <span>Your Agency</span>? Find Out in 48 Hours</h1>
+            <p class="subtitle">Most agencies think their problem is data. It's not — it's how the agency is organised around data. We'll assess your operating model and show you the 3 changes that would make the biggest difference. Free. No sales call.</p>
+
+            <!-- Trust Badges -->
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#6430EC" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                    ICO Registered
+                </div>
+                <div class="trust-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#6430EC" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    GDPR Compliant
+                </div>
+                <div class="trust-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#6430EC" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    Estate Agency Specialists
+                </div>
+            </div>
+
+            <!-- Volume Proof -->
+            <div class="volume-proof">
+                Built for agencies with 3-50+ branches
+            </div>
+
+            <!-- What You Get -->
+            <div class="deliverables">
+                <h3>What You'll Receive:</h3>
+
+                <div class="deliverable-item">
+                    <div class="deliverable-icon">1</div>
+                    <div class="deliverable-content">
+                        <h4>AI-Readiness Score</h4>
+                        <p>Where your agency sits on the journey from human-driven to AI+Data+Human operations — and what that means commercially.</p>
+                    </div>
+                </div>
+
+                <div class="deliverable-item">
+                    <div class="deliverable-icon">2</div>
+                    <div class="deliverable-content">
+                        <h4>Operating Model Assessment</h4>
+                        <p>How decisions flow across your branches, where accountability breaks down, and where manual work is blocking AI adoption.</p>
+                    </div>
+                </div>
+
+                <div class="deliverable-item">
+                    <div class="deliverable-icon">3</div>
+                    <div class="deliverable-content">
+                        <h4>3 Highest-Impact Changes</h4>
+                        <p>Not CRM fixes. Organisational changes — to governance, accountability, or process — that unlock AI capability and compound over time.</p>
+                    </div>
+                </div>
+
+                <div class="deliverable-item">
+                    <div class="deliverable-icon">4</div>
+                    <div class="deliverable-content">
+                        <h4>Transformation Roadmap</h4>
+                        <p>What to tackle first, what to defer, and why the sequence matters. Tailored to your branch count, CRM, and team structure.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial placeholder - add real testimonials when available -->
+
+            <!-- Trust Points -->
+            <div class="trust-points">
+                <div class="trust-point">
+                    <span class="icon">&#10003;</span>
+                    <span>Delivered within 48 hours</span>
+                </div>
+                <div class="trust-point">
+                    <span class="icon">&#10003;</span>
+                    <span>No sales call required</span>
+                </div>
+                <div class="trust-point">
+                    <span class="icon">&#10003;</span>
+                    <span>Tailored to your setup</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column - Form -->
+        <div class="form-column">
+            <div class="form-card">
+                <div class="form-header">
+                    <h2>Request Your Free AI-Readiness Audit</h2>
+                    <p>Takes less than 2 minutes</p>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <div class="progress-labels">
+                        <span id="stepLabel">Step 1 of 3</span>
+                        <span id="stepPercent">33%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <!-- Step 1: Branch Count -->
+                <div class="form-step active" id="step1">
+                    <h3>How many branches does your agency operate?</h3>
+                    <div class="option-grid">
+                        <button type="button" class="option-btn branch-btn" data-value="3-5">3-5 branches</button>
+                        <button type="button" class="option-btn branch-btn" data-value="6-10">6-10 branches</button>
+                        <button type="button" class="option-btn branch-btn" data-value="11-20">11-20 branches</button>
+                        <button type="button" class="option-btn branch-btn" data-value="20+">20+ branches</button>
+                    </div>
+                </div>
+
+                <!-- Step 2: CRM & Challenges -->
+                <div class="form-step" id="step2">
+                    <h3>Which CRM platform do you use?</h3>
+                    <div class="crm-grid">
+                        <button type="button" class="option-btn crm-btn" data-value="Reapit">Reapit</button>
+                        <button type="button" class="option-btn crm-btn" data-value="Dezrez">Dezrez</button>
+                        <button type="button" class="option-btn crm-btn" data-value="Jupix">Jupix</button>
+                        <button type="button" class="option-btn crm-btn" data-value="Alto">Alto</button>
+                        <button type="button" class="option-btn crm-btn" data-value="Other">Other</button>
+                    </div>
+
+                    <h3 style="margin-top: 24px;">What's your biggest data challenge?</h3>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="challenge" value="No unified reporting across branches">
+                        <span>No unified reporting across branches</span>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="challenge" value="Too much time on manual data entry">
+                        <span>Too much time on manual data entry</span>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="challenge" value="Inconsistent CRM usage across offices">
+                        <span>Inconsistent CRM usage across offices</span>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="challenge" value="Can't track pipeline metrics at group level">
+                        <span>Can't track pipeline metrics at group level</span>
+                    </label>
+
+                    <button type="button" class="btn-continue" id="step2Next">Continue</button>
+                </div>
+
+                <!-- Step 3: Contact Details -->
+                <div class="form-step" id="step3">
+                    <h3>Where should we send your audit?</h3>
+                    <form id="auditForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Business Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company *</label>
+                            <input type="text" id="company" name="companyName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <input type="hidden" id="branchCount" name="branchCount">
+                        <input type="hidden" id="crm" name="crm">
+                        <input type="hidden" id="challenges" name="challenges">
+                        <input type="hidden" name="source" value="Landing Page - Free Audit">
+                        <button type="submit" class="btn-continue">Get My Free Audit</button>
+                    </form>
+                </div>
+
+                <!-- Step 4: Confirmation -->
+                <div class="form-step" id="step4">
+                    <div class="confirmation">
+                        <div class="check-icon">&#10003;</div>
+                        <h3>Your Audit Request Is In!</h3>
+                        <p>We'll research your agency and send a personalised data strategy brief within 48 hours.</p>
+
+                        <div class="next-steps">
+                            <h4>What happens next:</h4>
+                            <p data-step="1.">We'll research your agency using publicly available information</p>
+                            <p data-step="2.">You'll receive your personalised audit via email</p>
+                            <p data-step="3.">If you'd like to discuss findings, we'll include a booking link</p>
+                        </div>
+
+                        <p>Want to discuss sooner? <a href="https://strategy.agi-automations.com/#apply" target="_blank" class="book-link">Book a free strategy call</a></p>
+                    </div>
+                </div>
+
+                <p class="form-footer">No sales pressure. Just honest, actionable insights.</p>
+
+                <div class="form-objections">
+                    <div class="form-objection">
+                        <span class="form-objection-icon">&#10003;</span>
+                        <span><strong>100% free</strong> — no credit card or commitment</span>
+                    </div>
+                    <div class="form-objection">
+                        <span class="form-objection-icon">&#10003;</span>
+                        <span><strong>No spam</strong> — just your audit, then only if you want more</span>
+                    </div>
+                    <div class="form-objection">
+                        <span class="form-objection-icon">&#10003;</span>
+                        <span><strong>Actionable</strong> — recommendations you can implement yourself</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> AGI Automations. <a href="https://www.agi-automations.com/privacy-policy.html">Privacy Policy</a> | <a href="https://www.agi-automations.com">Main Website</a></p>
+    </footer>
+
+    <!-- Cookie Consent -->
+    <div id="cookieConsent" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1a202c;color:white;padding:16px 24px;z-index:9999;font-size:14px;">
+        <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+            <p style="margin:0;flex:1;">We use cookies (Google Analytics) to understand how visitors use this site. No personal data is sold. <a href="https://www.agi-automations.com/privacy-policy.html" style="color:#a78bfa;">Privacy Policy</a></p>
+            <div style="display:flex;gap:8px;">
+                <button onclick="acceptCookies()" style="background:#6430EC;color:white;border:none;padding:8px 20px;border-radius:6px;font-weight:600;cursor:pointer;">Accept</button>
+                <button onclick="declineCookies()" style="background:transparent;color:#94a3b8;border:1px solid #4a5568;padding:8px 20px;border-radius:6px;font-weight:600;cursor:pointer;">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Cookie consent
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookieConsent').style.display = 'none';
+        }
+        function declineCookies() {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookieConsent').style.display = 'none';
+            window['ga-disable-G-18364E2NK1'] = true;
+        }
+        if (!localStorage.getItem('cookieConsent')) {
+            document.getElementById('cookieConsent').style.display = 'block';
+        } else if (localStorage.getItem('cookieConsent') === 'declined') {
+            window['ga-disable-G-18364E2NK1'] = true;
+        }
+
+        // Form state
+        let formData = {
+            branchCount: '',
+            crm: '',
+            challenges: []
+        };
+
+        // Branch selection (Step 1)
+        document.querySelectorAll('.branch-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.branch-btn').forEach(b => b.classList.remove('selected'));
+                this.classList.add('selected');
+                formData.branchCount = this.dataset.value;
+
+                // Move to step 2
+                setTimeout(() => {
+                    showStep(2);
+                }, 200);
+            });
+        });
+
+        // CRM selection
+        document.querySelectorAll('.crm-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.crm-btn').forEach(b => b.classList.remove('selected'));
+                this.classList.add('selected');
+                formData.crm = this.dataset.value;
+            });
+        });
+
+        // Challenge checkboxes
+        document.querySelectorAll('.checkbox-option').forEach(option => {
+            option.addEventListener('click', function(e) {
+                if (e.target.tagName !== 'INPUT') {
+                    const checkbox = this.querySelector('input');
+                    checkbox.checked = !checkbox.checked;
+                }
+                this.classList.toggle('selected', this.querySelector('input').checked);
+            });
+        });
+
+        // Step 2 continue
+        document.getElementById('step2Next').addEventListener('click', function() {
+            if (!formData.crm) {
+                document.querySelectorAll('.crm-btn').forEach(b => b.style.borderColor = '#EF4444');
+                setTimeout(() => document.querySelectorAll('.crm-btn').forEach(b => b.style.borderColor = ''), 2000);
+                return;
+            }
+
+            // Collect challenges
+            formData.challenges = [];
+            document.querySelectorAll('input[name="challenge"]:checked').forEach(cb => {
+                formData.challenges.push(cb.value);
+            });
+
+            showStep(3);
+        });
+
+        // Form submission
+        document.getElementById('auditForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Set hidden fields
+            document.getElementById('branchCount').value = formData.branchCount;
+            document.getElementById('crm').value = formData.crm;
+            document.getElementById('challenges').value = formData.challenges.join(', ');
+
+            // Collect form data
+            const data = new FormData(this);
+            const payload = Object.fromEntries(data.entries());
+
+            // Send to webhook
+            fetch('https://n8n.srv950234.hstgr.cloud/webhook/audit-request', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            }).then(response => {
+                if (!response.ok) throw new Error('Webhook failed');
+            }).catch(err => {
+                console.log('Webhook error:', err);
+                // Still show confirmation but update message
+                document.querySelector('#step4 .confirmation > p').textContent =
+                    'If you don\'t hear from us within 48 hours, please email hello@agi-automations.com with your details.';
+            });
+
+            // Track conversion
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'generate_lead', {
+                    event_category: 'form',
+                    event_label: 'free_audit_request'
+                });
+            }
+
+            // Show confirmation
+            showStep(4);
+        });
+
+        function showStep(step) {
+            // Hide all steps
+            document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+
+            // Show target step
+            document.getElementById('step' + step).classList.add('active');
+
+            // Update progress
+            const progress = step === 4 ? 100 : step * 33;
+            document.getElementById('progressFill').style.width = progress + '%';
+            document.getElementById('stepPercent').textContent = progress + '%';
+
+            if (step < 4) {
+                document.getElementById('stepLabel').textContent = 'Step ' + step + ' of 3';
+            } else {
+                document.getElementById('stepLabel').textContent = 'Complete!';
+            }
+        }
+    </script>
+</body>
+</html>
